@@ -22,7 +22,7 @@ public class Solution {
             Thread.sleep(1);
         }
 
-        System.out.println("Task is completed, let's check the result");
+        System.out.println("Task is completed, let's setSuitablePack the result");
         long factorial = (long) future.get();
 
         System.out.println("Factorial of " + n + " is : " + factorial);
